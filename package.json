@@ -1,8 +1,9 @@
 {
-  "name": "msgpack-rpc-node",
+  "name": "@ros2jsguy/msgpack-rpc-node",
   "version": "0.2.0",
   "description": "MessagePack RPC implementation for Node",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.js",
   "scripts": {
     "pretest": "npm run build",
     "test": "jest",
@@ -25,12 +26,12 @@
     "rpc",
     "msgpack-rpc"
   ],
-  "author": "theJian <thejianmail@gmail.com>",
+  "author": "ROS2JsGuy <ros2jsguy@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/theJian/msgpack-rpc-node/issues"
+    "url": "https://github.com/ros2jsguy/msgpack-rpc-node/issues"
   },
-  "homepage": "https://github.com/theJian/msgpack-rpc-node#readme",
+  "homepage": "https://github.com/ros2jsguy/msgpack-rpc-node#readme",
   "devDependencies": {
     "@types/jest": "24.0.19",
     "@types/node": "12.12.3",
